@@ -3,6 +3,7 @@
 class Album
 
   @@album_count = 0
+  @@totalsongs = 0
 
   def initialize(song_number)
     @@album_count += 1
