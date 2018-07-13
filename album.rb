@@ -2,7 +2,7 @@
 
 class Album
 
-@@class_var 
+@@album_count = 0 
 
   def release_date=(date)
     @release_date = date
@@ -17,4 +17,4 @@ backstreet = Album.new
 backstreet.release_date= "1989"
 scorpion = Album.new
 everybody = Album.new
-help = Album.new 
+help = Album.new
