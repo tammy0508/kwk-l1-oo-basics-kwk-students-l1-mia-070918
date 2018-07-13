@@ -11,3 +11,4 @@ end
 
 album = Album.new
 album.release_date= "1989"
+puts Album 
