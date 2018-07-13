@@ -1,12 +1,13 @@
 class Album
-  
+
   def release_date=(date)
     @release_date = date
-  end 
+  end
 
   def release_date
     @release_date
-  end 
+  end
+end
 
-  
-end 
+album = Album.new
+album.release_date= "1989"
