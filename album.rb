@@ -6,11 +6,11 @@ class Album
 
   def initialize
     @@album_count += 1
-  end 
+  end
 
   def self.count
     @@album_count
-  end  
+  end
 
   def release_date=(date)
     @release_date = date
@@ -26,3 +26,5 @@ backstreet.release_date= "1989"
 scorpion = Album.new
 everybody = Album.new
 help = Album.new
+tlop = Album.new
+pitch_perfect_soundtrack = Album.new 
