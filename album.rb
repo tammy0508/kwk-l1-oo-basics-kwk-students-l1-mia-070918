@@ -6,6 +6,12 @@ class Album
 
   def initialize
     @@album_count += 1
+    @song_number = song_number
+    @@totalsongs += song_number
+  end
+
+  def self.totalsongs
+    @@totalsongs
   end
 
   def self.count
@@ -21,11 +27,12 @@ class Album
   end
 end
 
-backstreet = Album.new
+backstreet = Album.new(6)
 backstreet.release_date= "1989"
-scorpion = Album.new
-everybody = Album.new
-help = Album.new
-tlop = Album.new
-pitch_perfect_soundtrack = Album.new
-puts Album.count 
+scorpion = Album.new(10)
+everybody = Album.new(13)
+help = Album.new(4)
+tlop = Album.new(23)
+pitch_perfect_soundtrack = Album.new(12)
+puts Album.count
+puts Album.totalsongs
