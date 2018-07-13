@@ -1,4 +1,8 @@
+
+
 class Album
+
+@@class_var 
 
   def release_date=(date)
     @release_date = date
