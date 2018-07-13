@@ -9,6 +9,8 @@ class Album
   end
 end
 
-album = Album.new
-album.release_date= "1989"
-puts Album 
+backstreet = Album.new
+backstreet.release_date= "1989"
+scorpion = Album.new
+everybody = Album.new
+help = Album.new 
