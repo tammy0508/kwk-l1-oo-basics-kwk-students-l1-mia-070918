@@ -28,3 +28,4 @@ everybody = Album.new
 help = Album.new
 tlop = Album.new
 pitch_perfect_soundtrack = Album.new 
+puts album.count 
